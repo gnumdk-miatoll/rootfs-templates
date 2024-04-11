@@ -29,6 +29,7 @@ actions:
     description: install droidian-phosh
     packages:
       - droidian-phosh-minimal
+      - getcutout
 
 {{ if eq $variant "phone" }}
   - action: apt
@@ -36,7 +37,10 @@ actions:
     description: install packages for the phone variant
     packages:
       - adaptation-hybris-api{{ $apilevel }}-phone
-      - droidian-phosh-phone
+      - chatty
+      - gnome-calls
+      - mmsd-tng
+      - modemmanager
 {{end}}
 
 {{ if eq $version "nightly" }}
@@ -48,12 +52,6 @@ actions:
       - droidian-quirks-regenerate-ssh-keys
       - adaptation-hybris-devtools
 {{end}}
-
-  - action: apt
-    chroot: true
-    description: install droidian-extras
-    packages:
-      - droidian-extras
 
   - action: run
     description: clean droidian-phosh
