@@ -30,6 +30,7 @@ actions:
     packages:
       - droidian-phosh-minimal
       - getcutout
+      - gnome-console
 
 {{ if eq $variant "phone" }}
   - action: apt
