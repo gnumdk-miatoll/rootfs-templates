@@ -33,6 +33,7 @@ actions:
       - gnome-console
       - libfolks-eds26
       - device-chassis-handset
+      - mobile-broadband-provider-info
 
 {{ if eq $variant "phone" }}
   - action: apt
