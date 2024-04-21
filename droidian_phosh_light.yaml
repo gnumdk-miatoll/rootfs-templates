@@ -32,6 +32,7 @@ actions:
       - getcutout
       - gnome-console
       - libfolks-eds26
+      - device-chassis-handset
 
 {{ if eq $variant "phone" }}
   - action: apt
