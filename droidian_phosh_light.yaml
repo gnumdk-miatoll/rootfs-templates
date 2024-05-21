@@ -44,6 +44,7 @@ actions:
       - chatty
       - gnome-calls
       - mmsd-tng
+      - gpsd
       - modemmanager
 {{end}}
 
