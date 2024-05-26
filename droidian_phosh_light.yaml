@@ -45,6 +45,7 @@ actions:
       - gnome-calls
       - mmsd-tng
       - gpsd
+      - phosh-config-ofono
       - modemmanager
 {{end}}
 
