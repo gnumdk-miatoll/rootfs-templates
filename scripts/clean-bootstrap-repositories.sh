@@ -8,6 +8,7 @@ EOF
 
 # Remove extrepos
 rm -f /etc/apt/trusted.gpg.d/droidian-bootstrap.gpg
+rm -f /var/lib/extrepo/keys/adishatz.asc
 
 # Nuke /etc/apt/sources.list
 > /etc/apt/sources.list
