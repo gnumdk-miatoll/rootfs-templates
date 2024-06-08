@@ -27,8 +27,7 @@ actions:
       - droidian-apt-config
       - droidian-archive-keyring
       - mobian-droidian-archive-keyring
-      - miatoll-apt-config
-      - miatoll-quirks
+      - adishatz-apt-config
 
   - action: run
     description: Clean repositories
