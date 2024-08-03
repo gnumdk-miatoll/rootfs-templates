@@ -27,7 +27,6 @@ actions:
       - droidian-apt-config
       - droidian-archive-keyring
       - mobian-droidian-archive-keyring
-      - adishatz-apt-config
 
   - action: run
     description: Clean repositories
